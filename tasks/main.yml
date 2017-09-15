@@ -22,7 +22,7 @@
 
 - name: download archive
   get_url:
-    url: "{{ mariadb_connector_java_url }}"
+    url: "{{ mariadb_connector_java_archive_url }}"
     owner: "{{ mariadb_connector_java_owner }}"
     group: "{{ mariadb_connector_java_group }}"
     dest: "{{ mariadb_connector_java_dest }}"
