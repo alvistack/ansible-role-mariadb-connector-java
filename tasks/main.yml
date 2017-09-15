@@ -16,8 +16,9 @@
 
 - name: download archive
   get_url:
-    url: "{{ mariadb_connector_java_archive_url }}"
+    url: "{{ mariadb_connector_java_url }}"
     dest: "{{ mariadb_connector_java_dest }}"
     owner: "{{ mariadb_connector_java_owner }}"
     group: "{{ mariadb_connector_java_group }}"
+    mode: "{{ mariadb_connector_java_mode }}"
   tags: mariadb-connector-java
