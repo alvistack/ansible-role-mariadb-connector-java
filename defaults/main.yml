@@ -13,3 +13,8 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
+
+mariadb_connector_java_archive_url: "https://downloads.mariadb.com/Connectors/java/connector-java-2.1.1/mariadb-java-client-2.1.1.jar"
+mariadb_connector_java_dest: "/tmp"
+mariadb_connector_java_group: "daemon"
+mariadb_connector_java_owner: "daemon"
