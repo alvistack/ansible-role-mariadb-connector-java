@@ -30,7 +30,7 @@ before_install:
 
 install:
   - pip install -r ansible-requirements.txt
-#  - ansible-galaxy install -r requirements.yml
+  - ansible-galaxy install -r requirements.yml
 
 script:
   - yamllint -c .yamllint .
