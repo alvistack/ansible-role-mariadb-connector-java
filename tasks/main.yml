@@ -21,4 +21,4 @@
     owner: "{{ mariadb_connector_java_owner }}"
     group: "{{ mariadb_connector_java_group }}"
     mode: "{{ mariadb_connector_java_mode }}"
-  tags: mariadb-connector-java
+  tags: mariadb_connector_java
