@@ -17,8 +17,6 @@
 - name: prepare file
   file:
     dest: "{{ mariadb_connector_java_dest }}"
-    owner: "{{ mariadb_connector_java_owner }}"
-    group: "{{ mariadb_connector_java_group }}"
     state: "directory"
   tags: mariadb-connector-java
 
