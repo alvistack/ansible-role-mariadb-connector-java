@@ -14,16 +14,11 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-- name: prepare file
-  file:
-    dest: "{{ mariadb_connector_java_dest }}"
-    state: "directory"
-  tags: mariadb-connector-java
-
 - name: download archive
   get_url:
-    url: "{{ mariadb_connector_java_archive_url }}"
+    url: "{{ mariadb_connector_java_url }}"
+    dest: "{{ mariadb_connector_java_dest }}"
     owner: "{{ mariadb_connector_java_owner }}"
     group: "{{ mariadb_connector_java_group }}"
-    dest: "{{ mariadb_connector_java_dest }}"
-  tags: mariadb-connector-java
+    mode: "{{ mariadb_connector_java_mode }}"
+  tags: mariadb_connector_java
