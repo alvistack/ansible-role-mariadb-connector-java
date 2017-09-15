@@ -36,39 +36,39 @@ Role Variables
 </thead>
 <tbody>
 <tr class="odd">
-<td>mariadb_connector_java_url</td>
-<td>yes</td>
-<td><code>ttps://downloads.mariadb.com/Connectors/java/connector-java-2.1.1/mariadb-java-client-2.1.1.jar</code></td>
-<td></td>
-<td>URL for download MariaDB Connector/J JAR</td>
-</tr>
-<tr class="even">
 <td>mariadb_connector_java_dest</td>
 <td>yes</td>
 <td><code>/tmp/mariadb-connector-java.jar</code></td>
 <td></td>
 <td>Absolute path of where to download the file to</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>mariadb_connector_java_group</td>
 <td>yes</td>
 <td><code>daemon</code></td>
 <td></td>
 <td>Name of the group that should own the file</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>mariadb_connector_java_mode</td>
 <td>yes</td>
 <td><code>0644</code></td>
 <td></td>
 <td>Mode the file should be</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>mariadb_connector_java_owner</td>
 <td>yes</td>
 <td><code>daemon</code></td>
 <td></td>
 <td>Name of the user that should own the file</td>
+</tr>
+<tr class="odd">
+<td>mariadb_connector_java_url</td>
+<td>yes</td>
+<td><code>ttps://downloads.mariadb.com/Connectors/java/connector-java-2.1.1/mariadb-java-client-2.1.1.jar</code></td>
+<td></td>
+<td>URL for download MariaDB Connector/J JAR</td>
 </tr>
 </tbody>
 </table>
