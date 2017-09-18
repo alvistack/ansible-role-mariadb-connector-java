@@ -4,6 +4,7 @@ Ansible Role for MariaDB Connector/J
 [![Build Status](https://travis-ci.org/alvistack/ansible-role-mariadb-connector-java.svg?branch=master)](https://travis-ci.org/alvistack/ansible-role-mariadb-connector-java)
 [![GitHub tag](https://img.shields.io/github/tag/alvistack/ansible-role-mariadb-connector-java.svg)](https://github.com/alvistack/ansible-role-mariadb-connector-java)
 [![GitHub license](https://img.shields.io/github/license/alvistack/ansible-role-mariadb-connector-java.svg)](https://github.com/alvistack/ansible-role-mariadb-connector-java/blob/master/LICENSE)
+[![Ansible Role](https://img.shields.io/badge/galaxy-alvistack.mariadb--connector--java-blue.svg)](https://galaxy.ansible.com/alvistack/mariadb-connector-java)
 
 Ansible Role for MariaDB Connector/J Installation.
 
