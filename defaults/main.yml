@@ -14,8 +14,13 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-mariadb_connector_java_dest: "/tmp/mariadb-connector-java.jar"
+# Owner, group and mode of MariaDB Connector/J JAR.
+mariadb_connector_java_owner: "daemon"
 mariadb_connector_java_group: "daemon"
 mariadb_connector_java_mode: "0644"
-mariadb_connector_java_owner: "daemon"
+
+# Absolute path of where MariaDB Connector/J JAR should download to.
+mariadb_connector_java_dest: "/tmp/mariadb-connector-java.jar"
+
+# URL for download MariaDB Connector/J JAR.
 mariadb_connector_java_url: "https://downloads.mariadb.com/Connectors/java/connector-java-2.1.1/mariadb-java-client-2.1.1.jar"
