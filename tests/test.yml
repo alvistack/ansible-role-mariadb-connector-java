@@ -30,8 +30,6 @@
       mariadb_connector_java_mode: "0644"
       # Absolute path of where MariaDB Connector/J JAR should download to.
       mariadb_connector_java_dest: "/tmp/mariadb-connector-java.jar"
-      # URL for download MariaDB Connector/J JAR.
-      mariadb_connector_java_url: "https://downloads.mariadb.com/Connectors/java/connector-java-2.1.2/mariadb-java-client-2.1.2.jar"
 
 - hosts: all
   remote_user: root
