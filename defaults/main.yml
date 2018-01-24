@@ -23,4 +23,4 @@ mariadb_connector_java_mode: "0644"
 mariadb_connector_java_dest: "/tmp/mariadb-connector-java.jar"
 
 # URL for download MariaDB Connector/J JAR.
-mariadb_connector_java_url: "https://downloads.mariadb.com/Connectors/java/connector-java-2.2.0/mariadb-java-client-2.2.0.jar"
+mariadb_connector_java_url: "https://downloads.mariadb.com/Connectors/java/connector-java-2.2.1/mariadb-java-client-2.2.1.jar"
